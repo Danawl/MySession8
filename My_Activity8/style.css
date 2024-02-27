@@ -1,0 +1,60 @@
+
+body {
+    background-color: #fff6e5;
+  }
+.container {
+    max-width: 800px; 
+  }
+  
+  h1.text-center {
+    color: #007bff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+  }
+  
+  .card {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card img {
+    transition: transform 0.3s; 
+  }
+  
+  .card:hover img {
+    transform: scale(1.05); 
+  }
+  
+  .card-img-top {
+    object-fit: cover;
+    height: 200px;
+  }
+  
+  .card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    margin-bottom: 1rem; 
+    flex-grow: 1;
+
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    margin-top: auto; 
+  }
+ 
